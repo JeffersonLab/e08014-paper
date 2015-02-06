@@ -1,0 +1,90 @@
+% ****** Start of file apssamp.tex ******
+%
+%   This file is part of the APS files in the REVTeX 4.1 distribution.
+%   Version 4.1r of REVTeX, August 2010
+%
+%   Copyright (c) 2009, 2010 The American Physical Society.
+%
+%   See the REVTeX 4 README file for restrictions and more information.
+%
+% TeX'ing this file requires that you have AMS-LaTeX 2.0 installed
+% as well as the rest of the prerequisites for REVTeX 4.1
+%
+% See the REVTeX 4 README file
+% It also requires running BibTeX. The commands are as follows:
+%
+%  1)  latex apssamp.tex
+%  2)  bibtex apssamp
+%  3)  latex apssamp.tex
+%  4)  latex apssamp.tex
+%
+\documentclass[
+reprint, superscriptaddress,
+	%groupedaddress,
+	%unsortedaddress,
+	%runinaddress,
+	%frontmatterverbose, 
+	%preprint,
+	showpacs,
+	%preprintnumbers,
+	%nofootinbib,
+	%nobibnotes,
+	%bibnotes,
+	amsmath,amssymb,
+	aps,
+	prl,
+	%pra,
+	%prb,
+	%rmp,
+	%prstab,
+	%prstper,
+	floatfix,
+	]{revtex4-1}
+
+	\usepackage{graphicx} % Include figure files
+	\usepackage{dcolumn}  % Align table columns on decimal point
+	\usepackage{bm}       % bold math
+	\usepackage{hyperref} % add hypertext capabilities
+	\usepackage[mathlines]{lineno} % Enable numbering of text and display math
+	\linenumbersep1mm
+	\linenumbers             % Commence numbering lines
+
+	\begin{document}
+
+	\title{Measurement of short-range correlations in nuclei at $x>1$ with the quasi-elastic
+		$(\vec{\mathrm{e}},\mathrm{e}')$ process}
+
+		\input{authors.tex}
+
+		\date{\today}
+
+		%\begin{linenomath}
+		\begin{abstract}
+		We present new results of short-range correlations (SRC) with the measurement of electron scattering off high-momentum nucleons in a wide range of nuclei performed in Hall A at Jefferson Lab. The inclusive cross section ratio of $\mathrm{^{4}He}$ to $\mathrm{^{3}He}$ conforms the well-known two-nucleon short-range correction (2N-SRC) plateau in $1<x<2$ but yields a different pattern when extending to the $x>2$ regime where previous measurements claimed an onset of the three-nucleon short-range correlation (3N-SRC) under a similar kinematic region. The $\mathrm{^{12}C}$ to $\mathrm{^{3}He}$ and $\mathrm{^{12}C}$ to $\mathrm{^{4}He}$ cross section ratios also show no indication of 3N-SRC plateau. We also present the first measurement of the $\mathrm{^{48}Ca}$ to $\mathrm{^{40}Ca}$ cross section ratio and the result indicates the universality of two-nucleon corrections for high-momentum nucleons in the isotopes.
+		\end{abstract}
+		%\end{linenomath}
+
+		\pacs{TBD}
+
+		\maketitle
+
+		%introduction
+		\input{intro.tex}
+
+		%experiment
+		\input{experiment.tex}
+		%results	
+		\input{results.tex}
+
+		%discussion
+		\input{discussion.tex}
+
+		\begin{acknowledgments}
+        (Add acknowledgments here)
+		\end{acknowledgments}
+
+		%\bibliographystyle{apsrev4-1}
+		\bibliographystyle{h-physrev3.bst}
+		\bibliography{e08014}
+
+		\end{document}
