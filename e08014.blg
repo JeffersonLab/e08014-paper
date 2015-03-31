@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: e08014.aux
+The style file: h-physrev3.bst.bst
+Database file #1: e08014Notes.bib
+Database file #2: e08014.bib
+You've used 18 entries,
+            1970 wiz_defined-function locations,
+            743 strings with 8083 characters,
+and the built_in function-call counts, 3673 in all, are:
+= -- 237
+> -- 193
+< -- 0
++ -- 64
+- -- 42
+* -- 284
+:= -- 484
+add.period$ -- 18
+call.type$ -- 18
+change.case$ -- 3
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 186
+empty$ -- 388
+format.name$ -- 60
+if$ -- 858
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 15
+newline$ -- 77
+num.names$ -- 18
+pop$ -- 93
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 175
+stack$ -- 0
+substring$ -- 186
+swap$ -- 48
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 33
+width$ -- 20
+write$ -- 136
