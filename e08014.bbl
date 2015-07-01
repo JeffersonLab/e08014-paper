@@ -28,22 +28,6 @@ J.~Arrington, D.~Higinbotham, G.~Rosner, and M.~Sargsian,
 O.~Benhar, D.~Day, and I.~Sick,
 \newblock Rev. Mod. Phys. {\bf 80}, 189 (2008).
 
-\bibitem{West1975263}
-G.~B. West,
-\newblock Physics Reports {\bf 18}, 263  (1975).
-
-\bibitem{day_arns}
-D.~B. Day, J.~S. McCarthy, T.~W. Donnelly, and I.~Sick,
-\newblock Annual Review of Nuclear and Particle Science {\bf 40}, 357 (1990).
-
-\bibitem{PhysRevC.41.R2474}
-C.~Ciofi~degli Atti, S.~Liuti, and S.~Simula,
-\newblock Phys. Rev. C {\bf 41}, R2474 (1990).
-
-\bibitem{Boffi19931}
-S.~Boffi, C.~Giusti, and F.~Pacati,
-\newblock Physics Reports {\bf 226}, 1  (1993).
-
 \bibitem{SLAC_Measurement_PRC.48.2451}
 L.~L. Frankfurt, M.~I. Strikman, D.~B. Day, and M.~Sargsyan,
 \newblock Phys. Rev. C {\bf 48}, 2451 (1993).
@@ -71,8 +55,9 @@ J.~Alcorn {\em et~al.},
 Z.~Ye,
 \newblock {Ph.D Thesis, University of Virginia}, 2013, arXiv:1408.5861.
 
-\bibitem{doug_or_clas}
-D.~Higinbotham and O.~Hen,
-\newblock Tbd, 2014.
+\bibitem{Higinbotham:2014xna}
+D.~W. Higinbotham and O.~Hen,
+\newblock Phys.Rev.Lett. {\bf 114}, 169201 (2015), 1409.3069.
+%%CITATION = ARXIV:1409.3069;%%
 
 \end{thebibliography}
