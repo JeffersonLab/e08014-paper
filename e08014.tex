@@ -49,10 +49,15 @@ reprint, superscriptaddress,
 	\linenumbersep1mm
 	\linenumbers             % Commence numbering lines
 
+	\def\gtorder{\mathrel{\raise.3ex\hbox{$>$}\mkern-14mu
+	 \lower0.6ex\hbox{$\sim$}}}
+	\def\ltorder{\mathrel{\raise.3ex\hbox{$<$}\mkern-14mu
+	 \lower0.6ex\hbox{$\sim$}}}
+
 	\begin{document}
 
-	\title{Measurement of short-range correlations in nuclei at $x>1$ in inclusive quasi-elastic
-		electron scattering}
+%	\title{Measurement of short-range correlations in nuclei at $x>1$ in inclusive quasi-elastic electron scattering}
+	\title{Search for three-nucleon short-range correlations in nuclei}
 
 		\input{authors.tex}
 
@@ -60,13 +65,22 @@ reprint, superscriptaddress,
 
 		%\begin{linenomath}
 		\begin{abstract}
-		We present new results of short-range correlations (SRC) with the measurement of electron scattering off high-momentum nucleons in a wide range of nuclei performed in Hall A at Jefferson Lab. The inclusive cross section ratio of $\mathrm{^{4}He}$ to $\mathrm{^{3}He}$ conforms the well-known two-nucleon short-range correction (2N-SRC) plateau in $1<x<2$ but yields a different pattern when extending to the $x>2$ regime where previous measurements claimed an onset of the three-nucleon short-range correlation (3N-SRC) under a similar kinematic region. The $\mathrm{^{12}C}$ to $\mathrm{^{3}He}$ and $\mathrm{^{12}C}$ to $\mathrm{^{4}He}$ cross section ratios also show no indication of 3N-SRC plateau. 
+
+We present new data probing short-range correlations (SRC) in nuclei through the measurement of electron scattering off high-momentum nucleons in
+light nuclei. The inclusive cross section ratios of $^4$He to $^3$He and $^{12}$C to $^3$He are observed to be both $Q^2$ and $x$ independent
+for $1.5 < x <2$, confirming the previously observed dominance of two-nucleon short-range corrections. We also examine the $Q^2$ dependence for
+$x > 2$ where previous data suggested that scattering from three-nucleon correlations might dominate the cross section.
+
+%We find that the cross section ratios do not agree with an earlier measurement which suggested a dominance of 3N-SRCs, and do not exhibit the
+%behavior expected in a naive model of 3N-SRCs. The deviations from this simple picture may simply be due to failure of the approximations made in the
+%simple model, and data at larger $Q^2$ may offer a more definitive answer on the question of 3N-SRCs.
+
+
 %We also present the first measurement of the $\mathrm{^{48}Ca}$ to $\mathrm{^{40}Ca}$ cross section ratio and the result indicates the universality of two-nucleon corrections for high-momentum nucleons in the isotopes.
 		\end{abstract}
 		%\end{linenomath}
 
-		\pacs{TBD}
-
+		\pacs{25.10.1s, 25.30.Fj}
 		\maketitle
 
 		%introduction
@@ -81,8 +95,9 @@ reprint, superscriptaddress,
 		\input{conclusion.tex}
 
 		\begin{acknowledgments}
- We would like to acknowledge the outstanding support from the Jefferson Lab Hall A 
-technical staff and the JLab target group. This work was supported by the NSF and DOE 
+We would like to acknowledge the outstanding support from the Jefferson Lab Hall A 
+technical staff and the JLab target group. This work was supported by the NSF and the
+DOE, Office of Science, Office of Nuclear Physics, under contract DE-AC02-06CH11357, and by DOE 
 contract DE-AC05-06OR23177 under which JSA, LLC operates JLab.
 		\end{acknowledgments}
 

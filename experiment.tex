@@ -1,48 +1,55 @@
+The results reported here are from JLab experiment E08-014~\cite{e08014_pr}, carried out in Hall A and focused on precise measurements of the
+$x$ and $Q^2$ dependence of the A/$^3$He cross section ratio at large $x$. An electron beam with an energy of $3.356$~GeV and currents ranging
+from XX to YY $\mu$A impinged on nuclear targets and the scattered electrons were detected in two nearly identical High-Resolution
+Spectrometers (HRSs)~\cite{halla_nim}. Three 20~cm cryogenic targets were used, liquid $^2$H and gaseous $^3$He and $^4$He, along with thin foils
+of $\mathrm{^{12}C}$, $\mathrm{^{40}Ca}$ and $\mathrm{^{48}Ca}$. Each HRS consists of a pair of vertical drift chambers (VDCs) for particle
+tracking, two scintillator planes for triggering and timing measurements, and a gas \v{C}erenkov counter and two layers of lead-glass calorimeters
+for particle identification~\cite{halla_nim}. Scattering was measured at $\theta_{0}=21^\circ$, $23^\circ$, $25^\circ$, and $28^\circ$,
+cover a $Q^2$ range of 1.3--2.2~GeV$^2$ A detailed description of the experiment and data analysis can be found in Ref.~\cite{zye_thesis}.
 
-The new JLab experiment, E08-014, was carried out in Hall A in 2011~\cite{e08014_pr} and focused on the measurements of inclusive cross sections at
-large $x$ with high precision. An high intensity electron beam with a constant energy of $3.356~\mathrm{GeV}$ struck on fixed targets, and the
-scattered electrons were simultaneously detected by two identical High-Resolution Spectrometers (HRSs)~\cite{halla_nim}. Three 20~cm long cryogenic
-targets, the $\mathrm{^{2}D}$ liquid, the $\mathrm{^{3}He}$ gas and the $\mathrm{^{4}He}$ gas, were used, in addition to thin foils of $\mathrm{^{12}C}$,
-$\mathrm{^{40}Ca}$ and $\mathrm{^{48}Ca}$. Each HRS consists of a pair of vertical drift chambers (VDCs) for particle tracking, two scintillator planes
-for triggering and timing measurements, and a gas \v{C}erenkov counter and two layers of lead-glass calorimeters for particle identification. The
-spectrometers were positioned at $\theta_{0}=21^\circ$, $23^\circ$, $25^\circ$, and $28^\circ$ with total of 9 different central momentum settings, which
-cover the $\mathrm{Q^{2}}$ range from 1.1~$\mathrm{(GeV/c)^{2}}$ up to 2.5~$\mathrm{(GeV/c)^{2}}$. The detailed description of the experiment and the
-data analysis can be found in Ref.~\cite{zye_thesis}.
 
 % PID cuts and efficiencies
- The HRS detectors had very high electron detection capability and the event rate of this experiment was low since the cross section drops exponentially
- away from the QE peak. Events with only one-track from the VDCs' tracking reconstruction were kept for analysis, while the zero-track and multi-track
- events were less than 1\%. The efficiencies of the detectors were carefully evaluated and turned out to be close to 100\%. The electrons were
- identified by applying combination cuts on the calibrated signals from both the \v{C}erenkov detector and the calorimeters. The cuts were able to keep
- above 99\% electrons while the pion to electron ratio was estimated to be better than $\mathrm{10^{-4}}$ level %thanks to the low pion production rate under these kinematic regions.
- The overall dead-time of the data acquisition system (DAQ) was evaluated and corrected for each run.
+
+The analysis keeps events where a single track is identified, with very small corrections for multi-track events as the event rates are modest
+for the large-$x$ kinematics. The trigger and tracking inefficiencies are extremely small and applied as a correction to the measured yield.
+Electrons are identified by applying cuts on the signals from both the \v{C}erenkov detector and the calorimeters. The cuts yield $>99$\% electron
+efficiency with negligible pion contamination. The overall dead-time of the data acquisition system (DAQ) was evaluated run-by-run and this
+correction was applied to the measured yield.
 
 % Acceptance
-The scattered electron's outgoing momentum, in-plan and out-of-plan angles and its vertex position on the target can be reconstructed with the optics matrices of the HRSs using the tracking information from the VDCs as inputs. The optics matrices have been well calibrated by many previous Hall A experiments and it were also optimized with the new calibration data taken during this experiment. The uncertainty from the optics reconstruction is believed to be better than $99\%$~\cite{halla_nim}. To reduce the edge effects due to the spectrometers' geometries, only the central acceptance regions were chose by cutting on these reconstructed quantities. A Monte Carlo (MC) simulation of the HRSs~\cite{zye_thesis} was employed to evaluate and correct for the residual acceptance effect. 
+
+The scattered electron momentum, in-plane and out-of-plane angles, and vertex position at the target can be reconstructed with the optics matrices
+of the HRSs using the tracking information from the VDCs as inputs. The optics matrices have been well calibrated by previous experiments and
+were also optimized with the new calibration data taken during this experiment. To reduce the edge effects due to the spectrometers' geometries,
+only the central acceptance regions were chose by cutting on these reconstructed quantities. A Monte Carlo (MC) simulation of the
+HRSs~\cite{zye_thesis} was used to correct for the residual acceptance effect.
+%
+\textit{JRA: Probably need to at least mention modified tune/optics of right arm.  We'll probably refer to it in context of check of left arm
+data, even if we don't use it. I assume that the plan is to show left arm only, as we don't need optimal statistics in this case.}.
 
 %targets
-For the cryogenic targets, we removed the contaminated events from electrons scattering off the end-cups of the target cells by applying a cut on the reconstructed vertex position of the scattered electron on the target. A dummy target of two thin aluminum foils with 20~cm apart was used to evaluate the level of residual contamination after the cut. With the precise optics reconstruction, a cut of $\pm 7~cm$ at the center part of the target is able to remove $>99.9\%$ of the events from target end-cups.
 
-One of the largest sources of systematic uncertainty comes from the target densities of $\mathrm{^{2}D}$, $\mathrm{^{3}He}$ and $\mathrm{^{4}He}$ due to the non-uniformely distributed coolant flow.  We took the boiling study data on these targets with varying beam currents, and extrapolated the density profiles when the beam was off and normalized the distribution to the values obtained during the target installation. We assigned a conservative uncertainty of 5\% on the target density for each cryogenic target. 
+For the cryogenic targets, we exclude events which come from scattering in the cell walls by applying a cut on the reconstructed vertex position of
+the scattered electron on the target. A dummy target of two thin aluminum foils with 20~cm apart was used to evaluate the level of residual
+endcap contribution after the cut. We apply a cut $\pm 7$~cm around the center of the target target, removing $>99.9\%$ of the events from target
+endcap scattering. One of the largest sources of systematic uncertainty comes from target density reduction due to heating of the $^2$H, $^3$He,
+and $^4$He targets in the high-current electron beam. We made dedicated measurements varying beam currents and used the variation of the yield to
+measure the current dependence of the target density. This was used to determine the effective target length at the current of the measurement.
+We assigned a conservative uncertainty of 5\% on the target density for each cryogenic target.
 
-(FIX-HERE: Discuss more about the systematic uncertainties from different sources and make a table).
+(FIX-HERE: Discuss more about the dominant systematic uncertainties).
 
-The cross sections were extracted by binning the data in $x$. A yield ratio method was developed to only apply all necessary corrections on the MC data until the MC yield converges to the experimental yield in the same $x$-bin.
-%The experimental yield for the $ith$ x bin is defined as:
-%\begin{equation}
-%Y^{i}_{EX} = \frac{N^{i}_{EX}}{N_{e}},
-%	\end{equation}
-%	where $N^{i}_{EX}$ is the number of scattered electrons within the bin after all event selections and acceptance cuts, and $N_{e}$ is the total number of incoming electrons hit on the target. The MC yield can be written as:
+The measured events, corrected for inefficiencies and normalized to the integrated luminosity, were binned in $x$ and compared to the simulated
+yield. The simulation uses a $y$-scaling cross section model with radiative corrections applied using the peaking approximation~\cite{zye_thesis}.
+\textit{JRA: Probably want reference to paper with RC formalism used}. For each $x$ bin, the ratio of experimental to Monte Carlo yield is applied
+as a correction to the cross section model at that $x$ value to extract the cross section.
+
+\textit{JRA: How large are Coulomb corrections if we (a) exclude or (b) include Calcium?}
+
+%The experimental cross section for the $ith$ bin is then given by:
 %	\begin{equation}
-%	Y^{i}_{MC} = \epsilon_{eff} \cdot \eta_{tg}\cdot \frac{\Delta E'_{MC}\Delta \Omega_{MC}} {N_{MC}^{gen}}\cdot\sum_{j\in i}\sigma^{rad}_{model}(E_{j},E'_{j},\theta_{j}) .
-%	\label{eqymc}
+%	\sigma_{EX}(E, E'_{i},\theta_{0}) = \frac{Y^{i}_{EX}}{Y^{i}_{MC}}\cdot\sigma_{model}(E, E'_{i},\theta_{0}),
 %	\end{equation}
-%	where $\epsilon_{eff}$ is the product of efficiencies from varied sources. $\eta_{tg}$ denotes the areal density of the scattering centers calculated from the target thickness, $\eta_{tg}=\rho\cdot l \cdot N_{A}/A$ where $N_{A}$ is the Avogadro's number. The target density has been corrected with the boiling effect. $\Delta E'_{MC}$ and $\Delta\Omega_{MC}$ are the momentum and solid angle overages of the HRS in the simulation which were chose to be slighly larger than the actuall ranges, and $N_{MC}^{gen}$ is the total number of generated MC events within the ranges. The terms in $\sum_{j\in i}$ represent that within the $ith$ x-bin, the $jth$ electron is first weighed by the radiated cross section calculated with the incoming beam energy $E_{j}$, outgoing momentum $E'_{j}$ and angle $\theta_{j}$ and then summurized.
-A cross section model was developed based on the $F(y)$ scaling and the peaking-approximation method was used to calculate the radiation
-effect~\cite{zye_thesis}. The experimental cross section for the $ith$ bin is then given by:
-	\begin{equation}
-	\sigma_{EX}(E, E'_{i},\theta_{0}) = \frac{Y^{i}_{EX}}{Y^{i}_{MC}}\cdot\sigma_{model}(E, E'_{i},\theta_{0}),
-	\end{equation}
-where $E$ is the beam energy fixed at 3.356 GeV, $\theta_{0}$ is the central scattering angle, $E'_{i}$, the scattered energy, is calculated based on $x_{i}$, and $\sigma_{model}(E, E'_{i},\theta_{0})$ is the cross section of the bin calculated from the model with the radiation effect corrected.  In this method, the bin-centering correction was automatically applied for choosing the center of the x-bin. The cross sections of different targets were extracted with exactly the same bins and the same acceptance cuts. Their statistical and systematic errors were individually calculated before taking the cross section ratio.
-
-{\bf Talk about isoscalar correction not being apply because of the np dominance. Coulomb correction.}
+%where $E$ is the beam energy fixed at 3.356 GeV, $\theta_{0}$ is the central scattering angle, $E'_{i}$, the scattered energy, is calculated based on $x_{i}$, and $\sigma_{model}(E, E'_{i},\theta_{0})$ is the cross section of the bin calculated from the model with the radiation effect corrected.  In this method, the bin-centering correction was automatically applied for choosing the center of the x-bin. The cross sections of different targets were extracted with exactly the same bins and the same acceptance cuts. Their statistical and systematic errors were individually calculated before taking the cross section ratio.
+%
+%{\bf Talk about isoscalar correction not being apply because of the np dominance (JRA: Not till ratios at the earliest). Coulomb correction.}
