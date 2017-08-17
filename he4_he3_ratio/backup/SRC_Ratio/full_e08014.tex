@@ -25,7 +25,7 @@
 \usepackage{graphicx} % Include figure files
 %\usepackage{dcolumn}  % Align table columns on decimal point
 %\usepackage{bm}       % bold math
-\usepackage{hyperref} % add hypertext capabilities
+%\usepackage{hyperref} % add hypertext capabilities
 \usepackage[mathlines]{lineno} % Enable numbering of text and display math
 \linenumbersep1mm
 \linenumbers             % Commence numbering lines
@@ -34,17 +34,13 @@
  \lower0.6ex\hbox{$\sim$}}}
 \def\ltorder{\mathrel{\raise.3ex\hbox{$<$}\mkern-14mu
  \lower0.6ex\hbox{$\sim$}}}
-\providecommand{\comment}[1]{{\bf \small \color{red} [#1]}}
-\providecommand{\rcomment}[1]{{\bf \small \color{blue} [#1]}}
 
 \begin{document}
 
 %\title{Measurement of short-range correlations in nuclei at $x>1$ in inclusive quasi-elastic electron scattering}
 \title{Search for three-nucleon short-range correlations in nuclei}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{authors.tex}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \date{\today}
 
@@ -63,11 +59,15 @@ While 3N-SRCs may have an important contribution, these data suggest that they c
 \pacs{13.60.Hb, 25.10.+s, 25.30.Fj}
 \maketitle
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
 %introduction
+%%%%%%%%%%%%%%%%%%%%%%%
 %\input{intro.tex}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% review
+
 Understanding the complex structure of the nucleus remains one of the major uncompleted tasks in nuclear physics, and significant questions remain about the high-momentum components of the nuclear wave-function. This important aspect of nuclear structure is not described by the shell model description. This high-momentum strength appears at low momenta in Mean field calculations~\cite{DeForest1983} which subsequently over predict the cross section for proton knock-out reactions below the Fermi momentum~\cite{VanDerSteenhoven1988547, Lapikas1993297, Kelly:1996hd}.
+
+
 
 %This is an important component of nuclear structure that goes beyond the shell model description. Mean field
 %calculations~\cite{DeForest1983} do not include these high-momentum components, and so typically overpredict
@@ -169,12 +169,14 @@ to dominate at some large momentum scale is as yet unanswered.
 
 
 %%{\bf (talk about Doug and Or's Analysis, Phys.Rev.Lett. 114 (2015) 16, 169201, when we discuss our new results)}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%
 %experiment
-%\input{experiment.tex}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+%$\input{experiment.tex}
 The results reported here are from JLab experiment E08-014~\cite{e08014_pr}, which focused on precise
 measurements of the $x$ and $Q^2$ dependence of the A/$^3$He cross section ratios at large $x$. A $3.356$~GeV
 electron beam with currents ranging from 40 to 120 $\mu$A impinged on nuclear targets, and scattered
@@ -214,7 +216,7 @@ The cryogenic targets have a large background from scattering in the cell walls.
 cut around the center of the target, removing $>99.9\%$ of the events from target endcap
 scattering, as determined from measurements on empty target cells. One of the largest contributions to the
 systematic uncertainty comes from target density reduction due to heating of the $^2$H, $^3$He, and $^4$He
-targets because of the high-current electron beam. We made dedicated measurements over a range of
+targets due to the high-current electron beam. We made dedicated measurements over a range of
 beam currents and used the variation of the yield to measure the current dependence of the target density.
 The effect was large and varied with the position along the target, and the measurements were used to
 determine the density loss and thus the effective target thicknesses of the measurement. Since much 
@@ -245,17 +247,19 @@ $x$ values where the statistical uncertainty becomes larger.
 %where $E$ is the beam energy fixed at 3.356 GeV, $\theta_{0}$ is the central scattering angle, $E'_{i}$, the scattered energy, is calculated based on $x_{i}$, and $\sigma_{model}(E, E'_{i},\theta_{0})$ is the cross section of the bin calculated from the model with the radiation effect corrected.  In this method, the bin-centering correction was automatically applied for choosing the center of the x-bin. The cross sections of different targets were extracted with exactly the same bins and the same acceptance cuts. Their statistical and systematic errors were individually calculated before taking the cross section ratio.
 %
 %{\bf Talk about isoscalar correction not being apply because of the np dominance (JRA: Not till ratios at the earliest). Coulomb correction.}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
 %results	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
 %\input{results.tex}
 %results
-            \begin{figure}[!ht]
+
+                \begin{figure}[!ht]
 		\begin{center}
-		  \includegraphics[width=8.5cm,angle=0]{He4_He3_XS_Ratio.pdf}
+		  \includegraphics[width=8.5cm,angle=0]{He4_He3_XS_Ratio}
 		\end{center}
 		\vspace*{-5mm}
 		\caption{(Color online) The $^4$He/$^3$He cross section ratio for $Q^2>1.4$~GeV$^2$ (23$^o$ and 25$^o$ scattering),
@@ -365,12 +369,16 @@ targets.
 %1) x-->3 has may have larger missing energy (plus, smaller energy step from x=1 to 2 to 3, so may fall to zero over wider range.
 %2) $Q^2$ dependence of $x \to 3$ ratios in general agreement with what we observe in our cross section model. Suggests that the cross
 %section falloff as we approach the kinematic threshold is large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
 %discussion
+%%%%%%%%%%%%%%%%%%%%%%%
 %\input{conclusion.tex}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% conclusions
+
+
 We have performed high-statistics measurements of the $^4$He/$^3$He and $^{12}$C/$^3$He cross section
 ratios, confirming the results of the low-statistics measurements from Hall C~\cite{fomin2012} and showing
 a clear disagreement with the CLAS data~\cite{PhysRevLett.96.082501}. This supports the idea that the CLAS
@@ -398,6 +406,8 @@ comparisons of scattering from $^3$He and $^3$H at large $x$~\cite{e1211112} all
 isospin structure in the high-momentum components of the $^3$H and $^3$He nucleon momentum distributions. If
 only 2N-SRCs contribute at large momenta, then the observed n-p pair dominance will yield nearly identical
 cross sections for the $x>2$ region as well, while contributions from 3N-SRCs need not be isospin independent.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{acknowledgments}
 

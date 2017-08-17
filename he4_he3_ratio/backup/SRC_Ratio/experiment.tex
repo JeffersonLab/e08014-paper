@@ -1,0 +1,70 @@
+The results reported here are from JLab experiment E08-014~\cite{e08014_pr}, which focused on precise
+measurements of the $x$ and $Q^2$ dependence of the A/$^3$He cross section ratios at large $x$. A $3.356$~GeV
+electron beam with currents ranging from 40 to 120 $\mu$A impinged on nuclear targets, and scattered
+electrons were detected in two nearly identical High-Resolution Spectrometers (HRSs)~\cite{halla_nim}. Data
+were taken on six targets: three 20-cm cryogenic targets (liquid $^2$H and gaseous $^3$He and $^4$He) and
+thin foils of $\mathrm{^{12}C}$, $\mathrm{^{40}Ca}$ and $\mathrm{^{48}Ca}$. We focus here on the results from
+the light nuclei, $A \leq 12$, which were taken to examine the 3N-SRC region, while the Calcium data were
+taken to examine the isospin dependence in the 2N-SRC kinematics.
+
+Each HRS consists of a pair of vertical drift chambers (VDCs) for particle tracking, two scintillator planes
+for triggering and timing measurements, and a gas \v{C}erenkov counter and two layers of lead-glass
+calorimeters for particle identification~\cite{halla_nim}. Scattering was measured at $\theta=21^\circ$,
+$23^\circ$, $25^\circ$, and $28^\circ$, covering a $Q^2$ range of 1.3--2.2~GeV$^2$. A detailed description
+of the experiment and data analysis can be found in Ref.~\cite{zye_thesis}.
+
+
+% PID cuts and efficiencies
+
+The data analysis is relatively straightforward, as the inclusive scattering at $x>1$ yields low rates and a
+small pion background. The trigger and tracking inefficiencies are small and applied as a correction to the
+measured yield. Electrons are identified by applying cuts on the signals from both the \v{C}erenkov detector
+and the calorimeters. The cuts yield $>99$\% electron efficiency with negligible pion contamination. The
+overall dead-time of the data acquisition system (DAQ) was evaluated on a run-by-run bases. To ensure a
+well-understood acceptance, the solid angle and momentum acceptance were limited to high-acceptance regions
+and a model of the HRSs~\cite{zye_thesis} was used to apply acceptance corrections.
+
+The scattered electron momentum, in-plane and out-of-plane angles, and vertex position at the target can be
+reconstructed from the VDC tracking information using the optics matrices determined in earlier experiments.
+For the right HRS, the third quadrupole was unable to run at its full current, and so data were taken in a
+modified tune with at 15\% reduction in its field. Optics data were taken to correct for the modified
+tune. Many of the systematic uncertainties in the spectrometers are correlated, so we took the
+conservative approach of applying these uncertainties to the combined result from the HRS-L and HRS-R data.
+
+%targets
+
+The cryogenic targets have a large background from scattering in the cell walls. We apply a $\pm 7$~cm
+cut around the center of the target, removing $>99.9\%$ of the events from target endcap
+scattering, as determined from measurements on empty target cells. One of the largest contributions to the
+systematic uncertainty comes from target density reduction due to heating of the $^2$H, $^3$He, and $^4$He
+targets because of the high-current electron beam. We made dedicated measurements over a range of
+beam currents and used the variation of the yield to measure the current dependence of the target density.
+The effect was large and varied with the position along the target, and the measurements were used to
+determine the density loss and thus the effective target thicknesses of the measurement. Since much 
+of the model dependence will be target independent, a conservative 5\% normalization uncertainty was applied
+on the ratio of cryotargets to account for target density uncertainties.
+
+%We assigned a conservative uncertainty of 5\% on the target density for each cryogenic target, but due to the
+%fact that much of the model dependence will be target independent, take a 5\% combined normalization uncertain
+%on the ratio of cryotargets.
+
+The measured events, corrected for inefficiencies and normalized to the integrated luminosity, were binned
+in $x$ and compared to the simulated yield. The simulation uses a $y$-scaling cross section
+model~\cite{day_arns, arrington99} with radiative corrections applied using the peaking
+approximation~\cite{zye_thesis, stein75}. Coulomb corrections are applied within an improved effective
+momentum approximation~\cite{aste05}, and are 2\% or smaller for all data presented here.  The combined 
+systematic uncertainty, neglecting the normalization uncertainty due to target thickness uncertainty,
+is XX-YY\%, and is generally the largest contribution to the uncertainties in the ratios except at larger
+$x$ values where the statistical uncertainty becomes larger.
+
+%all targets except $^{40}$Ca and $^{48}$Ca, where the corrections are 5--6\% for the largest scattering angles. For each $x$ bin,
+%the ratio of experimental to Monte Carlo yield is applied as a correction to the cross section model at that $x$ value to extract the cross section.
+
+
+%The experimental cross section for the $ith$ bin is then given by:
+%	\begin{equation}
+%	\sigma_{EX}(E, E'_{i},\theta_{0}) = \frac{Y^{i}_{EX}}{Y^{i}_{MC}}\cdot\sigma_{model}(E, E'_{i},\theta_{0}),
+%	\end{equation}
+%where $E$ is the beam energy fixed at 3.356 GeV, $\theta_{0}$ is the central scattering angle, $E'_{i}$, the scattered energy, is calculated based on $x_{i}$, and $\sigma_{model}(E, E'_{i},\theta_{0})$ is the cross section of the bin calculated from the model with the radiation effect corrected.  In this method, the bin-centering correction was automatically applied for choosing the center of the x-bin. The cross sections of different targets were extracted with exactly the same bins and the same acceptance cuts. Their statistical and systematic errors were individually calculated before taking the cross section ratio.
+%
+%{\bf Talk about isoscalar correction not being apply because of the np dominance (JRA: Not till ratios at the earliest). Coulomb correction.}
